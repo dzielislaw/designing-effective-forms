@@ -1,3 +1,19 @@
 .modal {
     background: #c6d0ff7a;
 }
+.shipping-option {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.shipping-option img {
+    border-radius: 5px; 
+    width: 100px; 
+    height: auto; 
+    transition: border-color 0.3s; 
+}
+
+.shipping-option input:checked + img {
+    border-color: green;
+}
